@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="addTag" layoutX="114.0" layoutY="191.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="58.0" text="Add" />
+      <Button fx:id="editCaption" layoutX="196.0" layoutY="131.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="58.0" text="Edit" />
+      <Button fx:id="deleteCaption" layoutX="277.0" layoutY="131.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="58.0" text="Delete" />
+      <Button fx:id="addCaption" layoutX="114.0" layoutY="131.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="58.0" text="Add" />
+      <Button fx:id="deletePhoto" layoutX="357.0" layoutY="70.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="58.0" text="Delete" />
+      <Button fx:id="addPhoto" layoutX="114.0" layoutY="70.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="58.0" text="Add" />
+      <Button fx:id="sortPhoto" layoutX="196.0" layoutY="70.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="58.0" text="Sort" />
+      <Button fx:id="movePhoto" layoutX="277.0" layoutY="70.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="58.0" text="Move" />
+      <Button fx:id="deleteTag" layoutX="196.0" layoutY="191.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="58.0" text="Delete" />
+      <Text fx:id="Album" layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Album" wrappingWidth="107.21875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="Photo" layoutX="31.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="Caption" layoutX="25.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caption:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="Tag" layoutX="39.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tag:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
